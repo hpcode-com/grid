@@ -1,0 +1,14 @@
+.float {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: start;
+  overflow: auto;
+}
+
+.float__item {
+  white-space: nowrap;
+}
+
+.float__item:nth-child(n + 2) {
+  margin-left: 12px;
+}

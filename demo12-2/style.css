@@ -1,0 +1,15 @@
+.flexbox {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flexbox__item {
+ padding: 8px 12px; 
+}
+
+.wrap {
+ width: 500px;
+ background: #eee;
+ padding: 24px;
+}

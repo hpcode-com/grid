@@ -1,33 +1,28 @@
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 100px 100px 100px;
-}
-
-.grid__item {
-  display: grid;
-  align-items: center;
-  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 150px 150px 150px;
+  background: #eee;
 }
 
 .grid__item:nth-child(1) {
-  background: #FFCDD2;
+  background: #f8bbd0;
 }
 
 .grid__item:nth-child(2) {
-  background: #E1BEE7;
+  background: #d1c4e9;
 }
 
 .grid__item:nth-child(3) {
-  background: #C5CAE9;
+  background: #bbdefb;
 }
 
 .grid__item:nth-child(4) {
-  background: #B3E5FC;
+  background: #b2ebf2;
 }
 
 .grid__item:nth-child(5) {
-  background: #B2DFDB;
+  background: #e6ee9c;
 }
 
 .grid__item:nth-child(6) {

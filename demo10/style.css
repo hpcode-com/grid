@@ -1,0 +1,31 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+}
+
+.grid__header {
+  background: #f8bbd0;
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+}
+
+.grid__content {
+}
+
+.grid__main {
+  background: #d1c4e9;
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+.grid__side {
+  background: #e6ee9c;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.grid__footer {
+  background: #b2ebf2;
+  grid-column: 1 / 3;
+  grid-row: 3 / 4;
+}

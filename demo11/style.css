@@ -1,0 +1,8 @@
+.grid {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  background: #eee;
+  width: 200px;
+  height: 200px;
+}
